@@ -12,4 +12,9 @@ public class IndexController {
         return "Kobe said:\"I wanna be the best, simple and play.\"";
     }
 
+    @RequestMapping(value = "/test")
+    public String test() {
+        return "test hello";
+    }
+
 }
